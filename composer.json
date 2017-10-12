@@ -1,0 +1,21 @@
+{
+    "name": "laszlof/jira-transition-cli",
+    "description": "Command Line PHP Application for performing transitions on Jira issues",
+    "type": "project",
+    "require": {
+        "lesstif/php-jira-rest-client": "^1.13",
+        "symfony/console": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank Laszlo",
+            "email": "frank@franksworld.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JiraTransition\\": "src/JiraTransition"
+        }
+    }
+}
