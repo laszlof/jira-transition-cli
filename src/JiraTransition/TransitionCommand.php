@@ -26,7 +26,7 @@ class TransitionCommand extends JiraCommand {
         'resolution',
         InputArgument::OPTIONAL,
         'Optionally add a resolution for the transition'
-        );
+      );
 
   }
   protected function execute(InputInterface $input, OutputInterface $output) {
